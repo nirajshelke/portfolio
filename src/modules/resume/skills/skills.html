@@ -14,8 +14,8 @@
 
                 <!--Skills-->
                 <div class="skills pt-2">
-                    <template for:each={item.tags} for:item="item1" key={item1.tag}>
-                        <span class="chip" key={item1.tag}>{item1.tag}</span>
+                    <template for:each={item.tags} for:item="tag" key={tag}>
+                        <span class="chip" key={tag}>{tag}</span>
                     </template>
                 </div>
             </div>

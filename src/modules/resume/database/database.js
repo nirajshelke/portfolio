@@ -8,7 +8,7 @@ export default class Database {
             "title": "3x Certified | 1x Trailhead Ranger | Software Engineer - Salesforce",
             "phone": "+91 8551985589",
             "email": "nirajshelke@hotmail.com",
-            "link": "https://nirajshelke.github.io/profile/",
+            "link": "https://nirajshelke.github.io/portfolio/",
             "location": "Pune, India",
             "photo": "resources/img/profile_pic.png"
         },
@@ -98,61 +98,15 @@ export default class Database {
                 "items": [
                     {
                         "title": "Web Technologies",
-                        "tags": [
-                            {
-                                "tag": "HTML5"
-                            },
-                            {
-                                "tag": "CSS"
-                            },
-                            {
-                                "tag": "Javascript"
-                            },
-                            {
-                                "tag": "SOAP/REST"
-                            },
-                            {
-                                "tag": "LWC OSS"
-                            },
-                            {
-                                "tag": "Java"
-                            }
-                        ]
+                        "tags": ["HTML5","CSS","Javascript","SOAP/REST","LWC OSS","Java"]
                     },
                     {
                         "title": "Salesforce",
-                        "tags": [
-                            {
-                                "tag": "Apex"
-                            },
-                            {
-                                "tag": "LWC"
-                            },
-                            {
-                                "tag": "Aura"
-                            },
-                            {
-                                "tag": "Visualforce"
-                            },
-                            {
-                                "tag": "Lightning Flows"
-                            },
-                            {
-                                "tag": "Sales Cloud"
-                            },
-                            {
-                                "tag": "Service Cloud"
-                            },
-                            {
-                                "tag": "Apex Web Services"
-                            },
-                            {
-                                "tag": "Lightning Platform"
-                            },
-                            {
-                                "tag": "Mulesoft"
-                            }
-                        ]
+                        "tags": ["Apex","LWC","Aura","Visualforce","Lightning Flows","Sales Cloud","Service Cloud","Apex Web Services","Lightning Platform","Mulesoft"]
+                    },
+                    {
+                        "title": "Tools",
+                        "tags": ["Mulesoft Anypoint Studio","Azure Devops","Jira","ANT Migration Tool","GitHub","Bitbucket","Bamboo","VS Code","Eclipse","Flosum","Postman","Apigee Edge"]
                     }
                 ]
             },
