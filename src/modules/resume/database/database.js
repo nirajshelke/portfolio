@@ -259,4 +259,4 @@ export default class Database {
     static assignTo(srcCmp, cmpPty) {
         srcCmp[cmpPty] = JSON.parse(JSON.stringify(this.resumeData));
     }
-}
+} 
