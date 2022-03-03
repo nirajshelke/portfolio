@@ -7,14 +7,14 @@ export default class Database {
             "name": "Nirajkumar Shelke",
             "title": "3x Certified | 1x Trailhead Ranger | Software Engineer - Salesforce",
             "phone": "+91 8551985589",
-            "email": "nirajshelke@hotmail.com",
+            "email": "nirajshelke@gmail.com",
             "link": "https://nirajshelke.github.io/portfolio/",
             "location": "Pune, India",
             "photo": "resources/img/profile_pic.png"
         },
         "sections": {
             "social": {
-                "title": "Social Media",
+                "title": "SOCIAL MEDIA",
                 "items": [
                     {
                         "title": "GitHub",
@@ -31,7 +31,7 @@ export default class Database {
                 ]
             },
             "experience": {
-                "title": "Experience",
+                "title": "EXPERIENCE",
                 "items": [
                     {
                         "position": "Software Engineer",
@@ -46,7 +46,7 @@ export default class Database {
                         "bullets": [
                             {
                                 "id": "001",
-                                "value": "Working to create an high efficiency application for end to end Insurance policy management using Salesforce Platform, Mulesoft and other web technologies."
+                                "value": "Working to create an high efficiency custom-build application for end to end Insurance policy management using Salesforce Platform, Mulesoft and other web technologies."
                             },
                             {
                                 "id": "002",
@@ -75,7 +75,7 @@ export default class Database {
                         "bullets": [
                             {
                                 "id": "011",
-                                "value": "Worked to create highly efficient Job board Application for a globally renowned staffing client using Salesforce Platform Development."
+                                "value": "Worked to create highly efficient and scalable custom-build Job board application for a globally renowned staffing client using Salesforce Platform Development."
                             },
                             {
                                 "id": "012",
@@ -94,7 +94,7 @@ export default class Database {
                 ]
             },
             "technology": {
-                "title": "Industry Experience",
+                "title": "SKILLS",
                 "items": [
                     {
                         "title": "Web Technologies",
@@ -102,7 +102,7 @@ export default class Database {
                     },
                     {
                         "title": "Salesforce",
-                        "tags": ["Apex","LWC","Aura","Visualforce","Lightning Flows","Sales Cloud","Service Cloud","Apex Web Services","Lightning Platform","Mulesoft"]
+                        "tags": ["Apex","Triggers","Batch Apex","SOQL","SOSL","Lightning Web Components Framework(LWC)","Lightning Aura Framework","Visualforce","Lightning Flows","Sales Cloud","Service Cloud","Apex Web Services","Lightning Platform","Salesforce APIs","Mulesoft","Salesforce Security Model","Data Model","Salesforce Configuration"]
                     },
                     {
                         "title": "Tools",
@@ -111,7 +111,7 @@ export default class Database {
                 ]
             },
             "skill": {
-                "title": "Industry Experience",
+                "title": "INDUSTRY EXPERIENCE",
                 "items": [
                     {
                         "name": "Lightning Web Components / Aura",
@@ -140,7 +140,7 @@ export default class Database {
                 ]
             },
             "talent": {
-                "title": "Strengths",
+                "title": "STRENGTHS",
                 "items": [
                     {
                         "title": "Programming",
@@ -160,7 +160,7 @@ export default class Database {
                 ]
             },
             "education": {
-                "title": "Education",
+                "title": "EDUCATION",
                 "items": [
                     {
                         "degree": "Bachelor of Engineering",
@@ -175,7 +175,7 @@ export default class Database {
                 ]
             },
             "achievement": {
-                "title": "Achievements",
+                "title": "ACIEVEMENTS",
                 "items": [
                     {
                         "title": "",
@@ -186,7 +186,7 @@ export default class Database {
                 ]
             },
             "certificate": {
-                "title": "Certifications",
+                "title": "CERTIFICATIONS",
                 "items": [
                     {
                         "title": "Platform Developer I",
@@ -204,7 +204,7 @@ export default class Database {
             },
             "volunteer": {},
             "publication": {
-                "title": "Personal Projects",
+                "title": "PERSONAL PROJETCTS",
                 "items": [
                     {
                         "title": "Advanced Data Loader",
@@ -233,7 +233,7 @@ export default class Database {
                 ]
             },
             "award": {
-                "title": "Awards",
+                "title": "AWARDS",
                 "items": [
                     {
                         "title": "Bright Spot Award",
