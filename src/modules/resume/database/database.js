@@ -7,7 +7,7 @@ export default class Database {
             "name": "Nirajkumar Shelke",
             "title": "3x Certified | 1x Trailhead Ranger | Software Engineer - Salesforce",
             "phone": "+91 8551985589",
-            "email": "nirajshelke@hotmail.com",
+            "email": "nirajshelke@gmail.com",
             "link": "https://nirajshelke.github.io/portfolio/",
             "location": "Pune, India",
             "photo": "resources/img/profile_pic.png"
