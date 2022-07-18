@@ -50,7 +50,7 @@ export default class Database {
                             },
                             {
                                 id: '002',
-                                value: 'Implementating Salesforce Sales and Service Cloud.'
+                                value: 'Implementing Salesforce Sales and Service Cloud.'
                             },
                             {
                                 id: '003',
