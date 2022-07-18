@@ -34,11 +34,40 @@ export default class Database {
                 title: 'EXPERIENCE',
                 items: [
                     {
-                        position: 'Software Engineer',
+                        position: 'Senior Salesforce Developer',
                         dateRange: {
                             isOngoing: true,
                             fromYear: "Feb'21",
                             toYear: ''
+                        },
+                        workplace: 'Clear (ClearTax)',
+                        location: 'Bangalore',
+                        description: '',
+                        bullets: [
+                            {
+                                id: '001',
+                                value: 'Working as a Senior Salesforce Developer to drive the automation journey with Salesforce platform at Clear.'
+                            },
+                            {
+                                id: '002',
+                                value: 'Implementating Salesforce Sales and Service Cloud.'
+                            },
+                            {
+                                id: '003',
+                                value: 'Working on Core Apex, LWC, Integration, Apex based API, Flows, Salesforce Securities, Mulesoft and other web technologies.'
+                            },
+                            {
+                                id: '004',
+                                value: 'Involved in all phases of SDLC.'
+                            }
+                        ]
+                    },
+                    {
+                        position: 'Software Engineer',
+                        dateRange: {
+                            isOngoing: false,
+                            fromYear: "Feb'21",
+                            toYear: "Jun'2022"
                         },
                         workplace: 'Principal Global Services',
                         location: 'Pune',
