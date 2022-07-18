@@ -21,7 +21,7 @@
     "license": "MIT",
     "repository": "nirajshelke/portfolio",
     "scripts": {
-        "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && lwc-services build -m production",
+        "build": "lwc-services build -m production",
         "build:development": "lwc-services build",
         "lint": "eslint ./src/**/*.js",
         "postinstall": "husky install",

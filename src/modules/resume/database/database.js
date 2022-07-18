@@ -271,7 +271,7 @@ export default class Database {
                         issuer: 'Salesforce Inc'
                     }
                 ]
-            },
+            }, 
             volunteer: {},
             publication: {
                 title: 'PERSONAL PROJETCTS',
