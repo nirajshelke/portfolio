@@ -37,7 +37,7 @@ export default class Database {
                         position: 'Senior Salesforce Developer',
                         dateRange: {
                             isOngoing: true,
-                            fromYear: "Feb'21",
+                            fromYear: "Jun'22",
                             toYear: ''
                         },
                         workplace: 'Clear (ClearTax)',
