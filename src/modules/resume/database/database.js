@@ -260,15 +260,18 @@ export default class Database {
                 items: [
                     {
                         title: 'Platform Developer I',
-                        issuer: 'Salesforce Inc'
+                        issuer: 'Salesforce Inc',
+                        icon: 'resources/img/PD1.png'
                     },
                     {
                         title: 'Platform App Builder',
-                        issuer: 'Salesforce Inc'
+                        issuer: 'Salesforce Inc',
+                        icon: 'resources/img/PAB.png'
                     },
                     {
                         title: 'Administrator',
-                        issuer: 'Salesforce Inc'
+                        issuer: 'Salesforce Inc',
+                        icon: 'resources/img/Admin.png'
                     }
                 ]
             }, 

@@ -8,14 +8,25 @@
 
         <!--Certifications-->
         <template for:each={data.items} for:item="item">
-            <div class="pt-2" key={item.title}>
-                <!--Certification Name-->
-                <h6 class="second-color">{item.title}</h6>
+            <div class="columns" key={item.title}>
+                <!--Icon-->
+                <div class="column col-1 col-sm-2">
+                    <figure class="avatar avatar-lg">
+                        <img src={item.icon} />
+                    </figure>
+                </div>
 
-                <!--Issuer-->
-                <span class="body-text">
-                    {item.issuer}
-                </span>
+                <div class="column col-10 col-sm-8">
+                    <div class="pt-2">
+                        <!--Certification Name-->
+                        <h6 class="second-color">{item.title}</h6>
+        
+                        <!--Issuer-->
+                        <span class="body-text">
+                            {item.issuer}
+                        </span>
+                    </div>
+                </div>
             </div>
         </template>
     </div>
