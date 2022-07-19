@@ -5,7 +5,7 @@ export default class Database {
     static resumeData = {
         header: {
             name: 'Nirajkumar Shelke',
-            title: '3x Certified | 1x Trailhead Ranger | Software Engineer - Salesforce',
+            title: '3x Certified | 1x Trailhead Ranger | Senior Salesforce Developer',
             phone: '+91 8551985589',
             email: 'nirajshelke@hotmail.com',
             link: 'https://nirajshelke.github.io/portfolio/',
@@ -301,7 +301,7 @@ export default class Database {
                         title: 'Classic Snake Game',
                         link: 'https://github.com/nirajshelke/classic-snake-game',
                         platform: 'Force.com',
-                        description: "It's a classc snake game built using LWC."
+                        description: "It's a classic snake game built using LWC."
                     }
                 ]
             },
