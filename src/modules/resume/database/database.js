@@ -46,15 +46,15 @@ export default class Database {
                         bullets: [
                             {
                                 id: '001',
-                                value: 'Working as a Senior Salesforce Developer to drive the automation journey with Salesforce platform at Clear.'
+                                value: 'Driving the sales and service automation journey of ClearTax by designing and implementing the solutions using Salesforce Platform and Salesforce Sales, Service and Experience Cloud.'
                             },
                             {
                                 id: '002',
-                                value: 'Implementing Salesforce Sales and Service Cloud.'
+                                value: 'Communicating with the stakeholders to discuss about the requirements and to plan automations.'
                             },
                             {
                                 id: '003',
-                                value: 'Working on Core Apex, LWC, Integration, Apex based API, Flows, Salesforce Securities, Mulesoft and other web technologies.'
+                                value: 'Working on Core Apex, LWC, Aura, Visualforce, Integrations, Apex based API, Sales Cloud, Service Cloud, Experience Cloud,  Flows, Salesforce Securities, Mulesoft and other web technologies.'
                             },
                             {
                                 id: '004',
@@ -66,7 +66,7 @@ export default class Database {
                         position: 'Software Engineer',
                         dateRange: {
                             isOngoing: false,
-                            fromYear: "Feb'21",
+                            fromYear: "Feb'2021",
                             toYear: "Jun'2022"
                         },
                         workplace: 'Principal Global Services',
@@ -150,6 +150,7 @@ export default class Database {
                             'Lightning Flows',
                             'Sales Cloud',
                             'Service Cloud',
+                            'Experience Cloud (Communities)',
                             'Apex Web Services',
                             'Lightning Platform',
                             'Salesforce APIs',
