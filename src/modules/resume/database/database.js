@@ -300,12 +300,6 @@ export default class Database {
                         platform: 'Force.com',
                         description:
                             "It's an application built on Force.com platform, sends notification on mobile about vaccine availabily in your area"
-                    },
-                    {
-                        title: 'Classic Snake Game',
-                        link: 'https://github.com/nirajshelke/classic-snake-game',
-                        platform: 'Force.com',
-                        description: "It's a classic snake game built using LWC."
                     }
                 ]
             },

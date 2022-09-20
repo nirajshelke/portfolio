@@ -3,7 +3,7 @@
 
     <div if:false={isBusy}>
         <!--Heading-->
-        <h6 class="heading-font">{data.title}</h6>
+        <h6 class="heading-font" style="font-weight: bold;">{data.title}</h6>
         <div class="divider"></div>
 
         <!--Social Media Platforms-->
@@ -24,7 +24,7 @@
                             <h6>{item.title}</h6>
 
                             <!--Profile Link-->
-                            <span class="body-text">
+                            <span class="body-text" style="font-size: 0.65;font-weight: bold;">
                                 <a href={item.path} target="_blank"
                                     >{item.link}</a
                                 >
