@@ -184,7 +184,7 @@ export default class Database {
                 items: [
                     {
                         name: 'Lightning Web Components / Aura',
-                        score: '70'
+                        score: '90'
                     },
                     {
                         name: 'Apex / Visualforce',
@@ -192,19 +192,19 @@ export default class Database {
                     },
                     {
                         name: 'API Integrations',
-                        score: '70'
+                        score: '75'
                     },
                     {
                         name: 'Service Cloud',
-                        score: '50'
+                        score: '70'
                     },
                     {
                         name: 'Sales Cloud',
-                        score: '50'
+                        score: '70'
                     },
                     {
                         name: 'User Interface Design / User Experience',
-                        score: '70'
+                        score: '80'
                     }
                 ]
             },
