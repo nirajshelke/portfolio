@@ -50,14 +50,18 @@ export default class Database {
                             },
                             {
                                 id: '002',
-                                value: 'Communicating with the stakeholders to discuss about the requirements and to plan automations.'
+                                value: 'Driving the end to end Salesforce - Product integration from design and development to make Salesforce the source of truth / the Interface to manage customer licenses / product consumption based on the contract available in Salesforce.'
                             },
                             {
                                 id: '003',
-                                value: 'Working on Core Apex, LWC, Aura, Visualforce, Integrations, Apex based API, Sales Cloud, Service Cloud, Experience Cloud,  Flows, Salesforce Securities, Mulesoft and other web technologies.'
+                                value: 'Communicating with the Sales, Service, CSM stakeholders on regular basis to discuss about the requirements and to plan automations accordingly to reduce the manual efforts and time to close deals effectively.'
                             },
                             {
                                 id: '004',
+                                value: 'Have implemented multiple integrations such as Salesforce - Clear Product DB, Salesforce - SAP, Salesforce - JIRA, Salesforce - SignDesk, etc.'
+                            },
+                            {
+                                id: '005',
                                 value: 'Involved in all phases of SDLC.'
                             }
                         ]
