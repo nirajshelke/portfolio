@@ -188,27 +188,27 @@ export default class Database {
                 items: [
                     {
                         name: 'Lightning Web Components / Aura',
-                        score: '90'
+                        score: '95'
                     },
                     {
                         name: 'Apex / Visualforce',
-                        score: '80'
+                        score: '90'
                     },
                     {
                         name: 'API Integrations',
-                        score: '75'
+                        score: '85'
                     },
                     {
                         name: 'Service Cloud',
-                        score: '70'
+                        score: '75'
                     },
                     {
                         name: 'Sales Cloud',
-                        score: '70'
+                        score: '85'
                     },
                     {
                         name: 'User Interface Design / User Experience',
-                        score: '80'
+                        score: '90'
                     }
                 ]
             },
@@ -296,7 +296,14 @@ export default class Database {
                         link: 'https://github.com/nirajshelke/AdvancedSoqlBuilder',
                         platform: 'Force.com',
                         description:
-                            "It's a advanced SOQL query builder tool which is built on Force.com using lwc and Apex which Provides provides ability to query data from salesforce. it provides inline editing of the Queried data and also provides an ability to export data in csv."
+                            "It's an advanced SOQL query builder tool which is built on Force.com using lwc and Apex which Provides provides ability to query data from salesforce. it provides inline editing of the Queried data and also provides an ability to export data in csv."
+                    },
+                    {
+                        title: 'Live Record Viewers',
+                        link: 'javascript:void(0)',
+                        platform: 'Force.com',
+                        description:
+                            "This tool displays the SF users who are currently working on / viewing any record. This tools is really helpful in the in the fast paced environments where there are multiple people working on same record."
                     },
                     {
                         title: 'Covid19 Vaccine Tracker',
