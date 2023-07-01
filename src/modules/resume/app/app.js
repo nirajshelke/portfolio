@@ -16,6 +16,7 @@ export default class App extends LightningElement {
     }
 
     connectedCallback() {
-        Database.assignTo(this, "resume");
+        //Database.assignTo(this, "resume");
+        Database.retrieve().assignTo(this, "resume");
     }
 }

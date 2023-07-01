@@ -1,5 +1,35 @@
+import Config from "../../../../config/configFile";
+
 export default class Database {
-    //static firebase;
+    static firebase;
+    static database;
+
+    static retrieve() {
+        console.log(window.firebase);
+        this.firebase = window.firebase;
+
+        return this;
+    }
+
+    static assignTo(srcCmp, cmpPty) {
+        this.firebase.initializeApp({
+            authDomain: Config.AUTH_DOMAIN,
+            databaseURL: Config.DB_URL
+        });
+
+        this.firebase
+            .database()
+            .ref(`/${Config.TABLE_NAME}`)
+            .once("value")
+            .then((result) => {
+                this.database = result.val();
+
+                srcCmp[cmpPty] = this.database;
+
+                FileSystem.debug(this.database);
+            });
+    }
+    /*static firebase;
     static database;
 
     static resumeData = {
@@ -50,19 +80,23 @@ export default class Database {
                             },
                             {
                                 id: '002',
-                                value: 'Driving the end to end Salesforce - Product integration from design and development to make Salesforce the source of truth / the Interface to manage customer licenses / product consumption based on the contract available in Salesforce.'
+                                value: 'Redesigned / Reorganised the entire Asset object data model to manage data specific to CSM trem, KAM team, Product Usage in more organized way. Eliminated Multi CRM dependency (Hubspot, LSQ, ) and made Salesforce the one for all Platform.'
                             },
                             {
                                 id: '003',
-                                value: 'Communicating with the Sales, Service, CSM stakeholders on regular basis to discuss about the requirements and to plan automations accordingly to reduce the manual efforts and time to close deals effectively.'
+                                value: 'Implemented the Post Sales Journey for the clear customers which is managed by CSM Stakehiolders to provide post sales support for seamless product usage for customer. Impemented the Process for Partners Onboarding and Partner contract management.'
                             },
                             {
                                 id: '004',
-                                value: 'Have implemented multiple integrations such as Salesforce - Clear Product DB, Salesforce - SAP, Salesforce - JIRA, Salesforce - SignDesk, etc.'
+                                value: 'Have implemented multiple integrations projects such as Salesforce - Clear Product DB, Salesforce - SAP, Salesforce - JIRA, Salesforce - SignDesk, etc.'
                             },
                             {
                                 id: '005',
-                                value: 'Involved in all phases of SDLC.'
+                                value: 'Implemented the custom customer support portal which was directly integrated with the product without using customer comminity licenses.'
+                            },
+                            {
+                                id: '006',
+                                value: 'Mentoring junior developers with the best practices and the approches to follow for developments.'
                             }
                         ]
                     },
@@ -83,15 +117,15 @@ export default class Database {
                             },
                             {
                                 id: '002',
-                                value: 'Received an appreciation for active contribution in organisation level Ideathons and Innovations.'
+                                value: 'Implemented new Customer Onboarding Process which eliminated the mainframe system dependancy for customer onboarding.'
                             },
                             {
                                 id: '003',
-                                value: 'Working on Core Apex, Aura Components, LWC, Integration, Apex based API, Salesforce Configurations, Mulesoft and other web technologies.'
+                                value: 'Made Salesforce the primary interface to view and manage all the service information on all platforms in PGS, which saved significant time of service agents to switch between platforms to provide support, this solution was rewarded as Best Automation Solution in PGS for 2021.'
                             },
                             {
                                 id: '004',
-                                value: 'Involved in all phases of SDLC.'
+                                value: 'Apart from Salesforce Worked on multiple platforms / tools such as Mulesoft as a middleware for integration with BPM system and mainframe system also Apigee edge for managing proxies and developers apps.'
                             }
                         ]
                     },
@@ -318,19 +352,29 @@ export default class Database {
                 title: 'AWARDS',
                 items: [
                     {
-                        title: 'Bright Spot Award',
-                        icon: 'resources/img/icon_award1.svg',
-                        description: 'Accenture Solutions Pvt. Ltd.'
+                        title: 'Appreciation and Callouts From CEO',
+                        icon: 'resources/img/icon_award2.svg',
+                        description: 'Cleartax'
+                    },
+                    {
+                        title: 'Noble CTzen Award',
+                        icon: 'resources/img/icon_award2.svg',
+                        description: 'Cleartax'
                     },
                     {
                         title: 'Increamental Innovation',
                         icon: 'resources/img/icon_award2.svg',
                         description: 'Principal Global Services'
+                    },
+                    {
+                        title: 'Bright Spot Award',
+                        icon: 'resources/img/icon_award1.svg',
+                        description: 'Accenture Solutions Pvt. Ltd.'
                     }
                 ]
             }
         }
-    };
+    };*/
 
     /*static retrieve() {
         this.firebase = window.firebase;
@@ -338,7 +382,7 @@ export default class Database {
         return this;
     }*/
 
-    static assignTo(srcCmp, cmpPty) {
+    /*static assignTo(srcCmp, cmpPty) {
         srcCmp[cmpPty] = JSON.parse(JSON.stringify(this.resumeData));
-    }
+    }*/
 }
