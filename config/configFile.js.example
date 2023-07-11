@@ -1,0 +1,6 @@
+export default class ConfigFile {
+    
+    static AUTH_DOMAIN = 'AUTH_DOMAIN';
+    static DB_URL = 'DATABASE_URL';
+    static TABLE_NAME = 'TABLE_NAME';
+}
