@@ -8,15 +8,15 @@
 
         <!--Certifications-->
         <template for:each={data.items} for:item="item">
-            <div class="columns" key={item.title}>
+            <div class="columns" key={item.title} style="padding:15px">
                 <!--Icon-->
-                <div class="column col-1 col-sm-2">
-                    <figure class="avatar avatar-lg">
-                        <img src={item.icon} />
+                <div class="column col-3 col-sm-2">
+                    <figure class="avatar avatar-lg" style="border-radius: 0%;">
+                        <img style="border-radius: 0%; width: 100px; aspect-ratio: 4/2;" src={item.icon} />
                     </figure>
                 </div>
 
-                <div class="column col-10 col-sm-8">
+                <div class="column col-8 col-sm-8">
                     <div class="pt-2">
                         <!--Certification Name-->
                         <h6 class="second-color">{item.title}</h6>
