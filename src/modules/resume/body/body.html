@@ -1,8 +1,7 @@
 <template>
-    <!--Two Column Layout-->
+
     <div class="columns pt-3">
-        <!--Column 1-->
-        <div class="column col-6 col-sm-12 pt-3">
+        <div class="column col-12 col-sm-12 pt-3">
             <!--Experience-->
             <div class="pt-4">
                 <resume-experience resume={resume}></resume-experience>
@@ -12,15 +11,12 @@
             <div class="pt-4">
                 <resume-products resume={resume}></resume-products>
             </div>
-
-            <!--Social Media-->
-            <div class="pt-4">
-                <resume-social-media resume={resume}></resume-social-media>
-            </div>
         </div>
-
-        <!--Column 2-->
-        <div class="column col-5 col-sm-12 pt-3">
+    </div>
+    <!--Two Column Layout-->
+    <div class="columns pt-3" style="page-break-before: always;">
+        <!--Column 1-->
+        <div class="column col-6 col-sm-12 pt-3">
             <!--Industry Experience/Technology-->
             <div class="pt-4">
                 <resume-industry-experience
@@ -37,20 +33,25 @@
             <div class="pt-4">
                 <resume-strengths resume={resume}></resume-strengths>
             </div>
+        </div>
 
+        <!--Column 2-->
+        <div class="column col-5 col-sm-12 pt-3">
+            <!--Awards-->
+            <div class="pt-4">
+                <resume-awards resume={resume}></resume-awards>
+            </div>
             <!--Certifications-->
             <div class="pt-4">
                 <resume-certifications resume={resume}></resume-certifications>
             </div>
-
-             <!--Education-->
-             <div class="pt-4">
+            <!--Education-->
+            <div class="pt-4">
                 <resume-education resume={resume}></resume-education>
             </div>
-
-            <!--Awards-->
+            <!--Social Media-->
             <div class="pt-4">
-                <resume-awards resume={resume}></resume-awards>
+                <resume-social-media resume={resume}></resume-social-media>
             </div>
         </div>
     </div>

@@ -8,7 +8,8 @@
         "compression": "^1.7.4",
         "express": "^4.17.3",
         "firebase": "^9.23.0",
-        "helmet": "^5.0.2"
+        "helmet": "^5.0.2",
+        "querystring-es3": "^0.2.1"
     },
     "engines": {
         "node": ">=10.13.0",
@@ -22,7 +23,7 @@
     "license": "MIT",
     "repository": "nirajshelke/portfolio",
     "scripts": {
-        "build": "lwc-services build -m production",
+        "build": "NODE_OPTIONS=--openssl-legacy-provider lwc-services build -m production",
         "build:development": "lwc-services build",
         "lint": "eslint ./src/**/*.js",
         "postinstall": "husky install",
@@ -34,7 +35,7 @@
         "test:unit:coverage": "lwc-services test:unit --coverage",
         "test:unit:debug": "lwc-services test:unit --debug",
         "test:unit:watch": "lwc-services test:unit --watch",
-        "watch": "lwc-services watch"
+        "watch": "NODE_OPTIONS=--openssl-legacy-provider lwc-services watch"
     },
     "devDependencies": {
         "eslint": "^7.32.0",
