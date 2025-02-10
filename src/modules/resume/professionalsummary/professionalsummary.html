@@ -1,0 +1,16 @@
+<template>
+    <resume-loading displayed={isBusy}></resume-loading>
+
+    <div if:false={isBusy}>
+        <!--Heading-->
+        <h4 class="heading-font" style="font-weight: bold;">{data.title}</h4>
+        <div class="divider"></div>
+
+        <!--Summary-->
+        <div class="pt-2">
+            <div class="body-text pb-2">
+                {data.description}
+            </div>
+        </div>
+    </div>
+</template>
